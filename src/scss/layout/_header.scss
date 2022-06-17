@@ -1,0 +1,9 @@
+@use "../abstract/variables" as v;
+header {
+  .top-red {
+    background-color: v.$top-clr;
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+@use "../abstract/variables" as v;
+
+main {
+  display: flex;
+  height: calc(100vh - 47rem);
+
+  .left-green {
+    background-color: v.$left-clr;
+    width: 25%;
+    height: 45rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+  }
+  .center-blue {
+    background-color: v.$center-clr;
+    width: 50%;
+    height: 45rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+  }
+  .right-purple {
+    background-color: v.$right-clr;
+    width: 25%;
+    height: 45rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+}
